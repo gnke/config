@@ -1,0 +1,25 @@
+[global_config]
+  title_transmit_bg_color = "#000000"
+  title_inactive_fg_color = "#ffffff"
+  handle_size = 2
+  title_inactive_bg_color = "#000000"
+[keybindings]
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    use_system_font = False
+    login_shell = True
+    background_darkness = 0.77
+    scrollback_lines = 3000
+    background_type = transparent
+    background_image = /home/gerald/Night_Sky_by_niklasK.jpg
+    show_titlebar = False
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]

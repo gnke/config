@@ -112,7 +112,6 @@ parse_git_branch() {
     fi
 
     git_branch=$(git branch 2>/dev/null| sed -n '/^\*/s/^\* //p')
-    
     echo "[$git_branch]"
 }
 
